@@ -17,10 +17,6 @@ function App() {
   const [detectionEnabled, setDetectionEnabled] = useState(false)
   const [loadingProgress, setLoadingProgress] = useState(0)
   const [error, setError] = useState<string | null>(null)
-  const [stats, setStats] = useState<{
-    expression?: string,
-    count: number
-  }>({ count: 0 })
   const [detectedFaces, setDetectedFaces] = useState(0)
   const [faceExpressions, setFaceExpressions] = useState<faceapi.FaceExpressions | null>(null)
   const [intervalId, setIntervalId] = useState<NodeJS.Timeout | null>(null)

@@ -1,0 +1,35 @@
+{
+  "short_name": "Face Detective",
+  "name": "AI Face Detective",
+  "description": "Real-time face detection and emotion recognition app",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1a1a1a",
+  "background_color": "#1a1a1a",
+  "orientation": "portrait",
+  "scope": "/",
+  "categories": ["utilities", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Start Detection",
+      "short_name": "Detect",
+      "description": "Start face detection",
+      "url": "/?detect=true",
+      "icons": [{ "src": "icons/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+} 
